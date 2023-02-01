@@ -1,7 +1,7 @@
 const App = () => {
 	return (
 		<div className='App'>
-			<h1 className='text-3xl'>simple tailwind starter</h1>
+			<h1 className='text-3xl bg-red-100'>Simple tailwind starter</h1>
 		</div>
 	)
 }
