@@ -9,14 +9,17 @@
 }
 
 .section-container {
-	@apply max-w-6xl mx-auto text-center;
+	@apply mx-auto max-w-6xl px-10 text-center;
+}
+.button-container {
+	@apply flex w-full flex-col justify-center space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
 }
 
 body {
-	background-image: url("./images/bg-header-desktop.png");
+	background-image: url("../images/bg-header-desktop.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 @media (max-width: 576px) {
-	background-image: url("./images/bg-header-mobile.png");
+	background-image: url("../images/bg-header-mobile.png");
 }
